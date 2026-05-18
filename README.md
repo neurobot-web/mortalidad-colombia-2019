@@ -149,53 +149,59 @@ en `http://localhost:8050`, que es el puerto usual de ejecución de Dash en desa
 
 
 ## Visualizaciones
+Esta aplicación permite realizar una visualización de muertes en Colombia en el año 2019. Transforma datos publicados por el DANE en las Estadísticas Vitales (EEVV) en visualizaciones interactivas que facilitan la identificación de patrones demográficos, geográficos y temporales de la mortalidad en el país. 
 
 ### Visualización general
-![Aplicación con todos los datos de Colombia](images/mortalidad-colombia-2019.png)
-![Aplicación con filtro Antioquia](images/mortalidad-dpto-antioquia.png)
+Al ingresar se visualizan datos generales y los datos de Colombia, 
+si se filtra por un departamento, las cifras se modifican.
+![Aplicación con todos los datos de Colombia](images/mortalidad-colombia_vs_filtro-antioquia.png)
+
+### Visualización datos generales
+Al ingresar se visualizan datos generales de Colombia, 
+y el filtro por departamento.
 ![Datos generales y filtro departamento](images/datos-generales_filtro.png)
 
 ### 1. Mapa Visualización distribución muertes por departamento
-![Mapa por departamento](images/mapa_departamentos.png)
-![Mapa departamento Amazonas](images/mapa_departamento-amazonas.png)
 Muestra la concentración de muertes en cada departamento mediante una
 escala de color secuencial. Bogotá D.C., Antioquia y Valle del Cauca
 concentran los mayores volúmenes, reflejando densidad poblacional y
 condiciones epidemiológicas.
+![Mapa por departamento](images/mapa_departamentos.png)
+![Mapa departamento Amazonas](images/mapa_departamento-amazonas.png)
 
-### 2. Gráfico de líneas — Muertes por mes
-![Muertes por mes](images/muertes_por_mes.png)
+### 2. Gráfico de líneas — muertes por mes
 Revela la variación estacional de la mortalidad. Se observan picos al
 inicio y cierre del año, asociados a patrones climáticos, enfermedades
 respiratorias y accidentalidad vial.
+![Muertes por mes](images/muertes_por_mes.png)
 
 ### 3. Gráfico de barras — 5 ciudades más violentas
-![Homicidios por arma de fuego](images/homicidios_x95.png)
 Identifica los municipios con mayor número de homicidios bajo el código
 X95 (agresión con disparo de arma de fuego), insumo clave para políticas
 públicas de seguridad.
+![Homicidios por arma de fuego](images/homicidios_x95.png)
 
 ### 4. Gráfico circular — 10 ciudades con menor mortalidad
-![Municipios con menor mortalidad registrada](images/menor_mortalidad.png)
 Evidencia municipios con menor carga de mortalidad, en su mayoría
 localidades de baja densidad poblacional en zonas rurales.
+![Municipios con menor mortalidad registrada](images/menor_mortalidad.png)
 
 ### 5. Histograma — Grupos de edad
-![Distribución por grupos de edad](images/grupos_edad.png)
 Concentración de muertes en el grupo de vejez (60-84 años), con un
 pico secundario en mortalidad neonatal e infantil.
+![Distribución por grupos de edad](images/grupos_edad.png)
 
 ### 6. Barras apiladas — Muertes por sexo y departamento
-![Mortalidad por sexo y departamento](images/sexo_departamento.png)
-![Mortalidad filtro femenino](images/sexo-fem_departamento.png)
 Compara la distribución entre hombres y mujeres por departamento. La
 mortalidad masculina supera a la femenina en la mayoría de los
 departamentos, especialmente en causas externas.
+![Mortalidad por sexo y departamento](images/sexo_departamento.png)
+![Mortalidad filtro femenino](images/sexo-fem_departamento.png)
 
 ### 7. Tabla — 10 principales causas de muerte
-![Principales causas de muerte](images/causas_muerte.png)
 Lista ordenada por total de casos con código CIE-10 y descripción. Las
 enfermedades del sistema circulatorio lideran de forma consistente.
+![Principales causas de muerte](images/causas_muerte.png)
 
 
 ## Fuentes de datos
